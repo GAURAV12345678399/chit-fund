@@ -1,0 +1,41 @@
+/*form style*/
+		input[type=text], input[type=password] {
+  		width: 30%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		display: inline-block;
+  		border: 1px solid #ccc;
+  		box-sizing: border-box;
+		}
+		form label{
+			float: left;
+			clear: left;
+			width: 200px;
+			font-weight: bold;}
+		.container {
+  		padding: 16px;
+		}
+		input{float: left;}
+		button{float:left;
+			clear: left;
+			
+		}
+
+/*menu style*/
+		nav{
+			flex:1;
+			display: flex;
+			align-items: right;
+			text-align: right;
+
+			list-style-type: none;
+		}
+		nav ul{
+			text-align: right;
+		}
+		nav ul li{
+			display: inline-block;
+			margin-right: 20px}
+		a{text-decoration: none;
+			color: red}
+		#onet{background-color:green;}
